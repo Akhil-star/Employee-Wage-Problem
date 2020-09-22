@@ -20,7 +20,8 @@ public class App
                 addParttime();
                 break;
                 default :
-                System.out.println("Invalid")
+                System.out.println("Invalid");
+                break;
     }
     
     

@@ -10,19 +10,43 @@ public class App
     {
         System.out.println( "Welocome to Employee Wage Computation Program" );
         Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
+        
+        int value = ((int) Math.random() * 10)%2;
+		
+    	System.out.println("Random value : "+value);
+    			
+    	if(value == 1) {
+    	System.out.println("Employee present");
+    	} else {
+    	System.out.println("Employee absent");
+    	}
+    	System.out.println("Enter daily/part");
+    	int n=sc.nextInt();
         switch(n)
         {
-                Case 1 :
+                case 1 :
                 calDailywage();
                 break;
-                Case 2 :
+                case 2 :
                 addParttime();
                 break;
                 default :
                 System.out.println("Invalid");
                 break;
     }
-    
-    
+ }
+        public static void addParttime(){
+        	int wage;
+        	wage=20*8;
+        	System.out.println(wage);
+        }
+        public static void calDailywage() {
+        	int wage;
+        	wage=20*8;
+        	System.out.println(wage);
+        }
+        
 }
+    
+    
+

@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Welocome to Employee Wage Computation Program" );
-        calDailywage();
+        
     }
     public static void calDailywage() {
     	int wage;

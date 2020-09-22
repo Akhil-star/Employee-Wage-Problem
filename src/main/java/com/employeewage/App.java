@@ -30,10 +30,13 @@ public class App
                 case 2 :
                 addParttime();
                 break;
-		        case 3 :
-		        calMonwage();
-		        break;
-                default :
+		case 3 :
+		calMonwage();
+		break;
+                case 4 ;
+		wagTotal();
+		break;
+		default :
                 System.out.println("Invalid");
                 break;
     }
@@ -53,6 +56,14 @@ public class App
 		int wage;
 		wage=20*8*20;
 		System.out.println(wage);
+	}
+	public static void wageTotal(){
+		int w;
+		
+		for(i=0;i<=20;i++){
+		  w=i*8*20;
+		}
+		System.out.println(w);
 	}
 	
 }

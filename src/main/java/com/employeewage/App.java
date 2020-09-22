@@ -9,7 +9,6 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Welocome to Employee Wage Computation Program" );
-        addParttime();
     
     }
     public static void addParttime() {

@@ -33,8 +33,8 @@ public class App
 		case 3 :
 		calMonwage();
 		break;
-                case 4 ;
-		wagTotal();
+                case 4 :
+		wageTotal();
 		break;
 		default :
                 System.out.println("Invalid");
@@ -58,9 +58,10 @@ public class App
 		System.out.println(wage);
 	}
 	public static void wageTotal(){
-		int w;
 		
-		for(i=0;i<=20;i++){
+		int w = 0;
+		
+		for(int i=0;i<=20;i++){
 		  w=i*8*20;
 		}
 		System.out.println(w);

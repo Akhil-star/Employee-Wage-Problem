@@ -30,8 +30,9 @@ public class App
                 case 2 :
                 addParttime();
                 break;
-		case 3 :
-		calMonwage();
+		        case 3 :
+		        calMonwage();
+		        break;
                 default :
                 System.out.println("Invalid");
                 break;

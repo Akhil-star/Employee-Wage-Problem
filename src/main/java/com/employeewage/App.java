@@ -9,9 +9,10 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Welocome to Employee Wage Computation Program" );
-        calDailywage();
+        addParttime();
+    
     }
-    public static void calDailywage() {
+    public static void addParttime() {
     	int wage;
     	wage=20*8;
     	System.out.println(wage);

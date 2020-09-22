@@ -30,10 +30,13 @@ public class App
                 case 2 :
                 addParttime();
                 break;
+		case 3 :
+		calMonwage();
                 default :
                 System.out.println("Invalid");
                 break;
     }
+	    
  }
         public static void addParttime(){
         	int wage;
@@ -45,7 +48,12 @@ public class App
         	wage=20*8;
         	System.out.println(wage);
         }
-        
+        public static void calMonwage(){
+		int wage;
+		wage=20*8*20;
+		System.out.println(wage);
+	}
+	
 }
     
     
